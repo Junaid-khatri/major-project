@@ -1,11 +1,9 @@
 package com.springboot.major_project.service;
 
 import com.lowagie.text.*;
-import com.lowagie.text.pdf.PdfCell;
 import com.lowagie.text.pdf.PdfPCell;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
-import com.springboot.major_project.entity.Order;
 import com.springboot.major_project.model.request.OrderDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
