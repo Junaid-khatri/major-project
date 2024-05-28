@@ -5,6 +5,7 @@ import com.springboot.major_project.entity.User;
 import com.springboot.major_project.model.request.RefreshRequest;
 import com.springboot.major_project.repository.RefreshTokenRepository;
 import com.springboot.major_project.repository.UserRepository;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Data
 public class RefreshTokenService {
 
     private final static int EXPIRYTIME = 600000;
